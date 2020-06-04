@@ -1,0 +1,66 @@
+
+/******** CABECERA (MENÚ + RANKING) ********/
+header {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+}
+
+#ranking {
+    position: absolute;
+    left: 350px;
+}
+
+h3 {
+    margin: 0 0 10px;
+}
+
+#ranking-list {
+    display: flex;
+    flex-direction: column;
+}
+
+#ranking-list p {
+    margin: 2px 5px;
+    text-transform: uppercase;
+}
+
+#ranking-list div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ranking-list>div:first-child {
+    color: red;
+}
+
+/******** CARTAS ********/
+#contenedor_cartas {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carta {
+    flex-basis: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.carta .front {
+    display: none;
+    font-size: 2em;
+}
+
+.girada {
+    background-color: red;
+}
+
+.girada .front {
+    display: block;
+}

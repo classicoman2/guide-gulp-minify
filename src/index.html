@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memorama</title>
+    <meta charset="UTF-8">
+    <!-- 
+    <script type="text/javascript" src="data.js"></script>
+    -->
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <input type="radio" name="modo" value="0" checked> Fácil<br>
+            <input type="radio" name="modo" value="1"> Medio<br>
+            <input type="radio" name="modo" value="2"> Difícil<br><br>
+            <input type="checkbox" id="variante"> variante de 3 cartas (sólo modalidad Difícil)<br><br>
+
+            <label for="nickname">Nickname</label>
+            <input type="text" id="nickname"><br>
+
+            <button id="jugar">Jugar</button>
+            <br><br>
+        </div>
+
+        <div id="ranking">
+            <h3>RANKING (sólo modo fácil)</h3>
+            <div id="ranking-list"></div>
+        </div>
+    </header>
+    <p id="crono"></p>
+    <div id="contenedor_cartas"></div>
+</body>
+
+</html>
