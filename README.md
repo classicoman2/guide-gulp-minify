@@ -27,3 +27,10 @@ CSS minification
   `$ npm install --save-dev gulp-postcss cssnano`
 
 Keep things tidy
+  `$ npm install --save-dev del`
+
+El Gist del tutorial ens passa [aquest fitxer final](https://gist.github.com/BobbieGoede/dfc1ed93674f53b20086a77df1d56277)
+
+## Execució
+
+`$ gulp build`
