@@ -9,8 +9,8 @@ Fa tres coses,
  - Passa 3: Minificar el HTML
  - Passa 4: fer que gulp esborri el directori `build` en el començament de l'execució, per eliminar fitxers antics.
 
- Com ho farem nosaltres: 
- - Molt fàcil, simplement copiar i aferrar el fitxer `gulpfile.js` i modificar les rutes, si fa falta. Abans de res, però cal instal·lar les dependències.
+### Com emprar-ho en el meu projecte? 
+ - Simplement copia i aferra el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta. Abans de res, però cal instal·lar les dependències.
 
  ### Dependencies
 
