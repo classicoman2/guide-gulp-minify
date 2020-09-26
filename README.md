@@ -15,18 +15,23 @@ Fa tres coses,
  ### Dependencies
 
 Javascript transpilation:
+
   `$ npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
 
 Javascript minification:
+
   `$ npm install --save-dev vinyl-buffer gulp-uglify`
 
-CSS minification
+CSS minification:
+
   `$ npm install --save-dev gulp-postcss cssnano`
 
-HTML minification
+HTML minification:
+
   `$ npm install --save-dev gulp-htmlmin`
 
-Keep things tidy
+Keep things tidy:
+
   `$ npm install --save-dev del`
 
 ## Execució
