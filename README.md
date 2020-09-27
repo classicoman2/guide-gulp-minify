@@ -40,6 +40,8 @@ Keep things tidy:
 
 ## Webgrafia
 
-Segueixo [aquest tutorial](https://goede.site/transpile-and-minify-javascript-html-and-css-using-gulp-4).
+- [Transpile and minify Javascript, HTML and CSS using Gulp 4](https://goede.site/transpile-and-minify-javascript-html-and-css-using-gulp-4)
+- [Getting Started with Browserify](https://scotch.io/tutorials/getting-started-with-browserify#toc-setting-up-with-gulp) - Integrate **Browserify** with **Gulp** 
 
-El Gist del tutorial ens passa [aquest fitxer final](https://gist.github.com/BobbieGoede/dfc1ed93674f53b20086a77df1d56277)
+
+![logo](./logo-classicoman-optim.png)
