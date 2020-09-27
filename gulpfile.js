@@ -25,11 +25,11 @@ const paths = {
 function javascriptBuild() {
   return (
       browserify({
-          entries: [`${paths.source}/script.js`],
+          entries: [`${paths.source}/js/script.js`],
           transform: [babelify.configure({ presets: ["@babel/preset-env"] })]
       })
           .bundle()
-          .pipe(source("script.js"))
+          .pipe(source("js/script.js"))
           // Turn it into a buffer!
           .pipe(buffer())
           // And uglify
@@ -48,7 +48,7 @@ function htmlBuild() {
 
 function cssBuild() {
   return gulp
-      .src(`${paths.source}/**/*.css`)
+      .src(`${paths.source}/**/css/*.css`)
       .pipe(postcss([cssnano()]))
       .pipe(gulp.dest(`${paths.build}`));
 }
