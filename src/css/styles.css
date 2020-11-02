@@ -1,14 +1,14 @@
-
-/******** CABECERA (MENÚ + RANKING) ********/
 * {
-    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
-body {
-    background-color: gainsboro;
+main > ul {
+    list-style-type: none;
+    display:flex;
+    padding: 0;
 }
-
-label {
-    color: blue;
+main > ul > li {
+    padding: 20px 10px;
+    background-color: aquamarine;
 }
-

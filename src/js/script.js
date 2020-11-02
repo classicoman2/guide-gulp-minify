@@ -1,10 +1,7 @@
-
 window.onload = function () {
-    document.getElementById("jugar").addEventListener("click", empezarPartida);
-}
+  console.log("Welcome to this dummy application");
 
-
-function empezarPartida() {
-    document.getElementById("result").innerHTML = document.getElementById("nickname").value
-}
-
+  document.getElementsByTagName("main")[0].addEventListener("click", () => {
+    window.alert("This is a dummy message");
+  });
+};

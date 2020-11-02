@@ -1,12 +1,12 @@
 # guide-gulp-minify
-Minify Gulp for a CSS + JS project
+Minify Gulp for a HTML5 + CSS + JS project
 
-## How to
+## Què pèrmet
 
- - 1: Minificar el js de la carpeta `/js` al directori `/build`.Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`.
- - 2: Minificar el CSS
- - 3: Minificar el HTML
- - 4: fer que gulp esborri el directori `build` en el començament de l'execució, per eliminar fitxers antics.
+ - 1: Minificar el js de la carpeta `/js` al directori `/build` (Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`)
+ - 2: Minifica el codi CSS3
+ - 3: Minificar el codi  HTML5
+ - 4: Gulp esborra el contingut del directori `build` en el començament de l'execució per eliminar fitxers antics.
 
 ### Com emprar-ho en el meu projecte? 
  - Simplement copia i aferra el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta. Abans de res, però cal instal·lar les dependències.
