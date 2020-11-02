@@ -33,6 +33,10 @@ Keep things tidy:
 
   `$ npm install --save-dev del`
 
+All together,
+
+  `$ npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream vinyl-buffer gulp-uglify gulp-postcss cssnano gulp-htmlmin del`
+
 ## Execució
 
 `$ gulp build`
