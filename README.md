@@ -3,10 +3,14 @@ Minify Gulp for a HTML5 + CSS + JS project
 
 ## Què pèrmet
 
- - 1: Minificar el js de la carpeta `/js` al directori `/dist` (Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`)
- - 2: Minifica el codi CSS3
- - 3: Minificar el codi  HTML5
- - 4: Gulp esborra el contingut del directori `dist` en el començament de l'execució per eliminar fitxers antics.
+ - 1: Gulp esborra el contingut del directori `dist` en el començament de l'execució per eliminar fitxers antics.
+ - 2: Minifica i guarda a dins de `/dist/js`:
+   - el js de la carpeta `/js`
+   - el codi CSS3 de la carpeta `css` 
+   - el codi HTML5 de la carpeta `src`
+   - les imatges de la carpeta `images`
+
+(Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`)
 
 ### Com emprar-ho en el meu projecte? 
  - Simplement copia i aferra el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta. Abans de res, però cal instal·lar les dependències.
@@ -29,13 +33,13 @@ HTML minification:
 
   `$ npm install --save-dev gulp-htmlmin`
 
+Images minification:
+
+  `$ npm install --save-dev gulp-imagemin`
+
 Keep things tidy:
 
   `$ npm install --save-dev del`
-
-All together,
-
-  `$ npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream vinyl-buffer gulp-uglify gulp-postcss cssnano gulp-htmlmin del`
 
 ## Execució
 
