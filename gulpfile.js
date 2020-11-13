@@ -11,6 +11,8 @@ const htmlmin = require("gulp-htmlmin");
 const postcss = require("gulp-postcss");
 const cssnano = require("cssnano");
  
+const imagemin = require('gulp-imagemin');
+
 const del = require("del");
 
 
@@ -53,6 +55,13 @@ function cssBuild() {
       .pipe(gulp.dest(`${paths.build}`));
 }
 
+//image minifier
+function imgSquash() {
+    return gulp
+    .src("./src/images/*")
+    .pipe(imagemin())
+    .pipe(gulp.dest("./dist/images"))
+}
 
 function cleanup() {
     // Simply execute del with the build folder path
@@ -66,4 +75,4 @@ function cleanup() {
  
 
 // We have to run the cleanup task first, after which we can run the build tasks 
-exports.build = gulp.series(cleanup, gulp.parallel(javascriptBuild, htmlBuild, cssBuild));
+exports.build = gulp.series(cleanup, gulp.parallel(javascriptBuild, htmlBuild, cssBuild, imgSquash));
