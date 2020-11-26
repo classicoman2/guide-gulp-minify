@@ -17,29 +17,33 @@ Minify Gulp for a HTML5 + CSS + JS project
 
  ### Dependencies
 
+Install Gulp,
+
+ `npm install gulp`
+
 Javascript transpilation:
 
-  `$ npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
+  `npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
 
 Javascript minification:
 
-  `$ npm install --save-dev vinyl-buffer gulp-uglify`
+  `npm install --save-dev vinyl-buffer gulp-uglify`
 
 CSS minification:
 
-  `$ npm install --save-dev gulp-postcss cssnano`
+  `npm install --save-dev gulp-postcss cssnano`
 
 HTML minification:
 
-  `$ npm install --save-dev gulp-htmlmin`
+  `npm install --save-dev gulp-htmlmin`
 
 Images minification:
 
-  `$ npm install --save-dev gulp-imagemin`
+  `$ install --save-dev gulp-imagemin`
 
 Keep things tidy:
 
-  `$ npm install --save-dev del`
+  `$ install --save-dev del`
 
 ## Execució
 
