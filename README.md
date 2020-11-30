@@ -1,14 +1,13 @@
 # guide-gulp-minify
 Minify Gulp for a HTML5 + CSS + JS project
 
-## Què pèrmet
+## Què fa
 
- - 1: Gulp esborra el contingut del directori `dist` en el començament de l'execució per eliminar fitxers antics.
- - 2: Minifica i guarda a dins de `/dist/js`:
-   - el js de la carpeta `/js`
-   - el codi CSS3 de la carpeta `css` 
-   - el codi HTML5 de la carpeta `src`
-   - les imatges de la carpeta `images`
+- 1: Crea un directori `dist`. Si ja existeix, borra el seu contingut. 
+- 2: Copia el codi HTML de `src` a `dist`
+- 3: Minifica el codi dins de `src/js` a dins de `dist/js`
+- 4: Minifica el codi CSS de `src/css` a dins de `dist/css`
+- 5: Optimitza les imatges de `src/images` a dins de `dist/images`
 
 (Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`)
 
