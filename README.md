@@ -39,15 +39,15 @@ HTML minification:
 
 Images minification:
 
-  `$ install --save-dev gulp-imagemin`
+  `install --save-dev gulp-imagemin`
 
 Keep things tidy:
 
-  `$ install --save-dev del`
+  `install --save-dev del`
 
 ## Execució
 
-`$ gulp build`
+`gulp build`
 
 ## Webgrafia
 
