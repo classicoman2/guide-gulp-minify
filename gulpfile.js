@@ -44,9 +44,10 @@ function javascriptBuild() {
 function htmlBuild() {
   return gulp
       .src(`${paths.source}/*.html`)
-      .pipe(htmlmin())
+      .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(gulp.dest(paths.build));
 }
+
 
 function cssBuild() {
   return gulp
@@ -75,4 +76,4 @@ function cleanup() {
  
 
 // We have to run the cleanup task first, after which we can run the build tasks 
-exports.build = gulp.series(cleanup, gulp.parallel(javascriptBuild, htmlBuild, cssBuild, imgSquash));
+exports.build = gulp.series(cleanup, htmlBuild, gulp.parallel(javascriptBuild, cssBuild, imgSquash));
