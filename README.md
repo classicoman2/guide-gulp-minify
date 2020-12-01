@@ -22,7 +22,7 @@ Install Gulp,
 
 Javascript transpilation:
 
-  `npm install --save-dev gulp browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
+  `npm install --save-dev browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
 
 Javascript minification:
 
