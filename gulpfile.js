@@ -18,6 +18,7 @@ const del = require("del");
 // To prevent rewriting the source and build folder locations
 const paths = {
   source: "./src",
+  build: "./dist"
 };
 
 function javascriptBuild() {
