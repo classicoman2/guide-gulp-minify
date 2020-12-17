@@ -1,4 +1,5 @@
 # guide-gulp-minify
+
 Minify Gulp for a HTML5 + CSS + JS project
 
 ## Què fa
@@ -15,43 +16,43 @@ Minify Gulp for a HTML5 + CSS + JS project
 
  - Instal·la gulp globalment:
 
-    `npm install -g gulp`
+    npm install -g gulp
 
  - Instal·la les dependències, 
 
-    `npm i`
+    npm i
 
  - Copia el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta
 
+ ## Execució
+
+    gulp build
+
  ### Dependencies (instal·lar-les si falla alguna cosa irresoluble després de les passes anteriors):
 
-Javascript transpilation:
+> Javascript transpilation:
 
-  `npm install --save-dev browserify babelify @babel/core @babel/preset-env vinyl-source-stream`
+    npm install --save-dev browserify babelify @babel/core @babel/preset-env vinyl-source-stream
 
-Javascript minification:
+> Javascript minification:
 
-  `npm install --save-dev vinyl-buffer gulp-uglify`
+    npm install --save-dev vinyl-buffer gulp-uglify
 
-CSS minification:
+> CSS minification:
 
-  `npm install --save-dev gulp-postcss cssnano`
+    npm install --save-dev gulp-postcss cssnano
 
-HTML minification:
+> HTML minification:
 
-  `npm install --save-dev gulp-htmlmin`
+    npm install --save-dev gulp-htmlmin
 
-Images minification:
+> Images minification:
 
-  `install --save-dev gulp-imagemin`
+    install --save-dev gulp-imagemin
 
-Keep things tidy:
+> Keep things tidy:
 
-  `install --save-dev del`
-
-## Execució
-
-`gulp build`
+    install --save-dev del
 
 ## Webgrafia
 
