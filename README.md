@@ -12,13 +12,18 @@ Minify Gulp for a HTML5 + CSS + JS project
 (Alerta amb els subdirectoris dels fitxers, si no estan ben indicats, fallarà l'execució de `Gulp`)
 
 ### Com emprar-ho en el meu projecte? 
- - Simplement copia i aferra el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta. Abans de res, però cal instal·lar les dependències.
 
- ### Dependencies
+ - Instal·la gulp globalment:
 
-Install Gulp,
+    `npm install -g gulp`
 
- `npm install gulp`
+ - Instal·la les dependències, 
+
+    `npm i`
+
+ - Copia el fitxer `gulpfile.js` al directori arrel del teu projecte i modifica les rutes, si fa falta
+
+ ### Dependencies (instal·lar-les si falla alguna cosa irresoluble després de les passes anteriors):
 
 Javascript transpilation:
 
@@ -53,5 +58,3 @@ Keep things tidy:
 - [Transpile and minify Javascript, HTML and CSS using Gulp 4](https://goede.site/transpile-and-minify-javascript-html-and-css-using-gulp-4)
 - [Getting Started with Browserify](https://scotch.io/tutorials/getting-started-with-browserify#toc-setting-up-with-gulp) - Integrate **Browserify** with **Gulp** 
 
-
-![logo](./logo-classicoman-optim.png)
